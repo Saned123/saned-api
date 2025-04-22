@@ -9,7 +9,8 @@ load_dotenv()
 app = Flask(__name__)
 
 # Configure Gemini
-GOOGLE_API_KEY = os.getenv('GEMINI_API_KEY')
+GOOGLE_API_KEY = "AIzaSyB7ulGr7VV_5grqiPszX7oSRgmK46_uu4g"
+
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # System instructions in both English and Arabic
