@@ -44,7 +44,7 @@ model = genai.GenerativeModel(
         "temperature": 0.5,
         "top_p": 1,
         "top_k": 32,
-        "max_output_tokens": 1024,
+        "max_output_tokens": 300,
     },
     safety_settings=[
         {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
